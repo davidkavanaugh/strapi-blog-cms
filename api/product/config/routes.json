@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/blogposts",
-      "handler": "Blogpost.find",
+      "path": "/products",
+      "handler": "Product.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/blogposts/count",
-      "handler": "Blogpost.count",
+      "path": "/products/count",
+      "handler": "Product.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/blogposts/:id",
-      "handler": "Blogpost.findOne",
+      "path": "/products/:id",
+      "handler": "Product.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/blogposts",
-      "handler": "Blogpost.create",
+      "path": "/products",
+      "handler": "Product.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/blogposts/:id",
-      "handler": "Blogpost.update",
+      "path": "/products/:id",
+      "handler": "Product.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/blogposts/:id",
-      "handler": "Blogpost.destroy",
+      "path": "/products/:id",
+      "handler": "Product.destroy",
       "config": {
         "policies": []
       }

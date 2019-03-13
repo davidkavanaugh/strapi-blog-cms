@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/blogposts",
-      "handler": "Blogpost.find",
+      "path": "/prices",
+      "handler": "Price.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/blogposts/count",
-      "handler": "Blogpost.count",
+      "path": "/prices/count",
+      "handler": "Price.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/blogposts/:id",
-      "handler": "Blogpost.findOne",
+      "path": "/prices/:id",
+      "handler": "Price.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/blogposts",
-      "handler": "Blogpost.create",
+      "path": "/prices",
+      "handler": "Price.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/blogposts/:id",
-      "handler": "Blogpost.update",
+      "path": "/prices/:id",
+      "handler": "Price.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/blogposts/:id",
-      "handler": "Blogpost.destroy",
+      "path": "/prices/:id",
+      "handler": "Price.destroy",
       "config": {
         "policies": []
       }

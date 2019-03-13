@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "blogposts",
+  "collectionName": "products",
   "info": {
-    "name": "blogpost",
+    "name": "product",
     "description": ""
   },
   "options": {
@@ -11,27 +11,31 @@
     "comment": ""
   },
   "attributes": {
-    "title": {
+    "name": {
       "default": "",
       "unique": true,
       "type": "string",
       "required": true
     },
-    "content": {
+    "price": {
+      "default": "",
+      "type": "decimal",
+      "required": true
+    },
+    "description": {
       "default": "",
       "type": "text"
     },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
     },
-    "author": {
-      "model": "user",
-      "via": "blogposts",
-      "dominant": true,
-      "plugin": "users-permissions"
+    "url": {
+      "default": "/",
+      "type": "string",
+      "required": true
     }
   }
 }

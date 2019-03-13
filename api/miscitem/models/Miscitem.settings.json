@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "blogposts",
+  "collectionName": "miscitems",
   "info": {
-    "name": "blogpost",
+    "name": "miscitem",
     "description": ""
   },
   "options": {
@@ -13,25 +13,21 @@
   "attributes": {
     "title": {
       "default": "",
-      "unique": true,
-      "type": "string",
-      "required": true
+      "type": "string"
     },
-    "content": {
+    "price": {
       "default": "",
-      "type": "text"
+      "type": "decimal"
     },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
     },
-    "author": {
-      "model": "user",
-      "via": "blogposts",
-      "dominant": true,
-      "plugin": "users-permissions"
+    "content": {
+      "default": "",
+      "type": "text"
     }
   }
 }

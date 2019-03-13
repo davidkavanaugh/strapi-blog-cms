@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/blogposts",
-      "handler": "Blogpost.find",
+      "path": "/miscitems",
+      "handler": "Miscitem.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/blogposts/count",
-      "handler": "Blogpost.count",
+      "path": "/miscitems/count",
+      "handler": "Miscitem.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/blogposts/:id",
-      "handler": "Blogpost.findOne",
+      "path": "/miscitems/:id",
+      "handler": "Miscitem.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/blogposts",
-      "handler": "Blogpost.create",
+      "path": "/miscitems",
+      "handler": "Miscitem.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/blogposts/:id",
-      "handler": "Blogpost.update",
+      "path": "/miscitems/:id",
+      "handler": "Miscitem.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/blogposts/:id",
-      "handler": "Blogpost.destroy",
+      "path": "/miscitems/:id",
+      "handler": "Miscitem.destroy",
       "config": {
         "policies": []
       }

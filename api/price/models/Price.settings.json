@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "prices",
+  "info": {
+    "name": "price",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "price": {
+      "default": "",
+      "type": "decimal"
+    },
+    "item": {
+      "default": "",
+      "type": "text",
+      "required": true
+    },
+    "unit": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
