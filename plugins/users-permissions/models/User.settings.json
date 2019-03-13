@@ -48,10 +48,6 @@
       "via": "users",
       "plugin": "users-permissions",
       "configurable": false
-    },
-    "blogpost": {
-      "model": "blogpost",
-      "via": "author"
     }
   },
   "collectionName": "users-permissions_user"

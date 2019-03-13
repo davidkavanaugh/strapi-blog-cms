@@ -34,6 +34,10 @@
       "via": "permissions",
       "plugin": "users-permissions",
       "configurable": false
+    },
+    "blogposts": {
+      "collection": "blogpost",
+      "via": "author"
     }
   }
 }

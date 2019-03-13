@@ -13,6 +13,7 @@
   "attributes": {
     "title": {
       "default": "",
+      "unique": true,
       "type": "string",
       "required": true
     },
@@ -20,9 +21,16 @@
       "default": "",
       "type": "text"
     },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
     "author": {
-      "model": "user",
-      "via": "blogpost",
+      "model": "permission",
+      "via": "blogposts",
+      "dominant": true,
       "plugin": "users-permissions"
     }
   }
