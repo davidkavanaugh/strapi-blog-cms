@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `Miscitem` model.
+ * Lifecycle callbacks for the `Miscpage` model.
  */
 
 module.exports = {

@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/miscitems",
-      "handler": "Miscitem.find",
+      "path": "/miscpages",
+      "handler": "Miscpage.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/miscitems/count",
-      "handler": "Miscitem.count",
+      "path": "/miscpages/count",
+      "handler": "Miscpage.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/miscitems/:id",
-      "handler": "Miscitem.findOne",
+      "path": "/miscpages/:id",
+      "handler": "Miscpage.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/miscitems",
-      "handler": "Miscitem.create",
+      "path": "/miscpages",
+      "handler": "Miscpage.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/miscitems/:id",
-      "handler": "Miscitem.update",
+      "path": "/miscpages/:id",
+      "handler": "Miscpage.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/miscitems/:id",
-      "handler": "Miscitem.destroy",
+      "path": "/miscpages/:id",
+      "handler": "Miscpage.destroy",
       "config": {
         "policies": []
       }

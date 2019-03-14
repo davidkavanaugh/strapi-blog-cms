@@ -2,7 +2,7 @@
   "connection": "default",
   "collectionName": "miscitems",
   "info": {
-    "name": "miscitem",
+    "name": "miscpage",
     "description": ""
   },
   "options": {
@@ -28,6 +28,18 @@
     "content": {
       "default": "",
       "type": "text"
+    },
+    "subtitle": {
+      "default": "",
+      "type": "string"
+    },
+    "email": {
+      "default": "",
+      "type": "email"
+    },
+    "phone": {
+      "default": "",
+      "type": "string"
     }
   }
 }
